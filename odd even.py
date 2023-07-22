@@ -1,15 +1,16 @@
-#program menentukan apakah suatu bilangan tersebut bernilai ganjil atau genap
+"""By Mayendra Dwika Prayudha"""
+#the program for odd or even
 
-x=eval(input(" masukan angka :"))
+x=eval(input(" Type your number:"))
 if x > 0:
     if x % 2 == 0:
-        print("angka {} adalah bilangan genap".format(x))
+        print("{} is positive even number ".format(x))
     else :
-        print("angka{} adalah bilangan ganjil".format(x))
+        print("{} is positive odd number".format(x))
 elif x < 0:
     if x % 2 == 0:
-        print("angka{} adalah bilangan negatif genap". format(x))
+        print("angka{} is negative even number". format(x))
     else :
-         print("angka{} adalah bilangan negatif ganjil". format (x))
+         print("angka{} is negative odd number". format (x))
 else :
-    print(" angka nol")       
+    print(" is a Zero")       
